@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE8A99CB2B1BA46800CFA9B8 /* _3HourCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A99CA2B1BA46800CFA9B8 /* _3HourCalendarApp.swift */; };
 		BE8A99CD2B1BA46800CFA9B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A99CC2B1BA46800CFA9B8 /* ContentView.swift */; };
 		BE8A99CF2B1BA46900CFA9B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8A99CE2B1BA46900CFA9B8 /* Assets.xcassets */; };
 		BE8A99D22B1BA46900CFA9B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8A99D12B1BA46900CFA9B8 /* Preview Assets.xcassets */; };
 		BE8A99DD2B1BA46900CFA9B8 /* _3HourCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A99DC2B1BA46900CFA9B8 /* _3HourCalendarTests.swift */; };
 		BE8A99E72B1BA46900CFA9B8 /* _3HourCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A99E62B1BA46900CFA9B8 /* _3HourCalendarUITests.swift */; };
 		BE8A99E92B1BA46900CFA9B8 /* _3HourCalendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A99E82B1BA46900CFA9B8 /* _3HourCalendarUITestsLaunchTests.swift */; };
+		BE8A99F62B1BA65B00CFA9B8 /* _3HourCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A99F52B1BA65B00CFA9B8 /* _3HourCalendarApp.swift */; };
+		BE8A99F82B1BA87900CFA9B8 /* turtlerock@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE8A99F72B1BA87900CFA9B8 /* turtlerock@2x.jpg */; };
+		BE8A99FA2B1BA8A200CFA9B8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A99F92B1BA8A200CFA9B8 /* CircleImage.swift */; };
+		BE8A99FC2B1BA93A00CFA9B8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A99FB2B1BA93A00CFA9B8 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		BE8A99C72B1BA46800CFA9B8 /* 23HourCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 23HourCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE8A99CA2B1BA46800CFA9B8 /* _3HourCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3HourCalendarApp.swift; sourceTree = "<group>"; };
 		BE8A99CC2B1BA46800CFA9B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE8A99CE2B1BA46900CFA9B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE8A99D12B1BA46900CFA9B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +47,10 @@
 		BE8A99E22B1BA46900CFA9B8 /* 23HourCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 23HourCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8A99E62B1BA46900CFA9B8 /* _3HourCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3HourCalendarUITests.swift; sourceTree = "<group>"; };
 		BE8A99E82B1BA46900CFA9B8 /* _3HourCalendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3HourCalendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE8A99F52B1BA65B00CFA9B8 /* _3HourCalendarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = _3HourCalendarApp.swift; path = "../../../../Library/Mobile Documents/.Trash/_3HourCalendarApp.swift"; sourceTree = "<group>"; };
+		BE8A99F72B1BA87900CFA9B8 /* turtlerock@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "turtlerock@2x.jpg"; path = "../../../../Downloads/SwiftUI Creating Combining/Resources/turtlerock@2x.jpg"; sourceTree = "<group>"; };
+		BE8A99F92B1BA8A200CFA9B8 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		BE8A99FB2B1BA93A00CFA9B8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 		BE8A99C92B1BA46800CFA9B8 /* 23HourCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				BE8A99CA2B1BA46800CFA9B8 /* _3HourCalendarApp.swift */,
+				BE8A99F52B1BA65B00CFA9B8 /* _3HourCalendarApp.swift */,
 				BE8A99CC2B1BA46800CFA9B8 /* ContentView.swift */,
 				BE8A99CE2B1BA46900CFA9B8 /* Assets.xcassets */,
+				BE8A99F92B1BA8A200CFA9B8 /* CircleImage.swift */,
+				BE8A99FB2B1BA93A00CFA9B8 /* MapView.swift */,
+				BE8A99F72B1BA87900CFA9B8 /* turtlerock@2x.jpg */,
 				BE8A99D32B1BA46900CFA9B8 /* _3HourCalendar.entitlements */,
 				BE8A99D02B1BA46900CFA9B8 /* Preview Content */,
 			);
@@ -233,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8A99F82B1BA87900CFA9B8 /* turtlerock@2x.jpg in Resources */,
 				BE8A99D22B1BA46900CFA9B8 /* Preview Assets.xcassets in Resources */,
 				BE8A99CF2B1BA46900CFA9B8 /* Assets.xcassets in Resources */,
 			);
@@ -260,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE8A99CD2B1BA46800CFA9B8 /* ContentView.swift in Sources */,
-				BE8A99CB2B1BA46800CFA9B8 /* _3HourCalendarApp.swift in Sources */,
+				BE8A99FC2B1BA93A00CFA9B8 /* MapView.swift in Sources */,
+				BE8A99F62B1BA65B00CFA9B8 /* _3HourCalendarApp.swift in Sources */,
+				BE8A99FA2B1BA8A200CFA9B8 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
