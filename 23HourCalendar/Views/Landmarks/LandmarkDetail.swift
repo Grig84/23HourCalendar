@@ -51,7 +51,7 @@ struct LandmarkDetail: View {
             
         }
         .navigationTitle(landmark.name)
-        //.navigationBarTitleDisplayMode(.inline)
+        .navigationBarTitleDisplayMode(.inline)
     }
 
 }
